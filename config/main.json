@@ -31,6 +31,7 @@
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
   ],
   "tokens": [
+    { "addr": "0xde1e0ae6101b46520cf66fdc0b1059c5cc3d106c", "name": "DELTA", "fullName": "DeltaChain Token", "decimals": 8 },
     { "addr": "0x7b2df125567815ac9b57da04b620f50bc93b320c", "name": "ACTP", "fullName": "Archetypal Network", "decimals": 8 },
     { "addr": "0xD2d95e0d8CEb1670D37878CEE784184b991d8509", "name": "RPCN1", "fullName": "ROPCOIN", "decimals": 1 },
     { "addr": "0x2f141ce366a2462f02cea3d12cf93e4dca49e4fd", "name": "FREE", "fullName": "FREE Coin", "decimals": 18 },
