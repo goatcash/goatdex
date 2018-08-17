@@ -201,7 +201,7 @@
     { "addr": "0x22c10728343e9d49ef25080f74a223878a3d4052", "name": "DRP2", "fullName": "Digital Rupiah", "decimals": 8 },
     { "addr": "0x22f0af8d78851b72ee799e05f54a77001586b18a", "name": "GXVC", "fullName": "Genevieve VC", "decimals": 10 },
     { "addr": "0x23cb17d7d079518dbff4febb6efcc0de58d8c984", "name": "TRV", "fullName": "TravelCoin", "decimals": 16 },
-    { "addr": "0x24021d38db53a938446ecb0a31b1267764d9d63d", "name": "HIT", "fullName": "HODL INCENTIVE TOKEN", "decimals": 18 },
+    { "addr": "0x7995ab36bB307Afa6A683C24a25d90Dc1Ea83566", "name": "HIT", "fullName": "HitChainCoin", "decimals": 6 },
     { "addr": "0x2405cc17ba128bfa7117815e04a4da228013f5bc", "name": "BNN", "fullName": "Bananas", "decimals": 8 },
     { "addr": "0x24692791bc444c5cd0b81e3cbcaba4b04acd1f3b", "name": "UKG", "fullName": "UnikoinGold", "decimals": 18 },
     { "addr": "0x2469f31a34fcaac0debf73806ce39b2388874b13", "name": "PPT2", "fullName": "Proof Presale Token", "decimals": 18 },
