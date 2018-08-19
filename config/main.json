@@ -38,6 +38,7 @@
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
   ],
   "tokens": [
+    { "addr": "0xb2135ab9695a7678dd590b1a996cb0f37bcb0718", "name": "SGN", "fullName": "Signals Network Token", "decimals": 9 },
     { "addr": "0x05d412ce18f24040bb3fa45cf2c69e506586d8e8", "name": "MFTU", "fullName": "Mainstream For The Underground", "decimals": 18 },
     { "addr": "0x382117315856a533549ea621542ccce13e54ae82", "name": "BTB", "fullName": "BitBall", "decimals": 18 },
     { "addr": "0xde1e0ae6101b46520cf66fdc0b1059c5cc3d106c", "name": "DELTA", "fullName": "DeltaChain Token", "decimals": 8 },
