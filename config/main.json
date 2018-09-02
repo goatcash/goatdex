@@ -888,7 +888,7 @@
     { "addr": "0xdd007278b667f6bef52fd0a4c23604aa1f96039a", "name": "RIPT", "fullName": "RiptideCoin", "decimals": 8 },
     { "addr": "0xdd16ec0f66e54d453e6756713e533355989040e4", "name": "TEN", "fullName": "Tokenomy", "decimals": 18 },
     { "addr": "0xdd41fbd1ae95c5d9b198174a28e04be6b3d1aa27", "name": "LYS", "fullName": "LIGHTYEARS", "decimals": 8 },
-    { "addr": "0xdd6bf56ca2ada24c683fac50e37783e55b57af9f", "name": "BNC", "fullName": "Brave New Coin", "decimals": 12 },
+    { "addr": "0xef51c9377feb29856e61625caf9390bd0b67ea18", "name": "BNC", "fullName": "Bionic", "decimals": 8 },
     { "addr": "0xdd6c68bb32462e01705011a4e2ad1a60740f217f", "name": "HBT", "fullName": "Hubiits", "decimals": 15 },
     { "addr": "0xdd974d5c2e2928dea5f71b9825b8b646686bd200", "name": "KNC", "fullName": "Kyber Network Crystal", "decimals": 18 },
     { "addr": "0xdded69d8e28d38d640f6244ab5294f309fd40ce1", "name": "LMT", "fullName": "Limit", "decimals": 8 },
