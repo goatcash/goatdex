@@ -38,6 +38,7 @@
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
   ],
   "tokens": [
+    { "addr": "0xb0e2b8e2c82b75044088611f59a523c376e93866", "name": "SMP", "fullName": "Social Media Pay", "decimals": 8 },
     { "addr": "0xcd607fdd69931675f50ea43d3488785367322b4e", "name": "QPAY", "fullName": "QuantumPay", "decimals": 8 },
     { "addr": "0xfef3884b603c33ef8ed4183346e093a173c94da6", "name": "METM", "fullName": "MetaMorph", "decimals": 18 },
     { "addr": "0xb2135ab9695a7678dd590b1a996cb0f37bcb0718", "name": "SGN", "fullName": "Signals Network Token", "decimals": 9 },
