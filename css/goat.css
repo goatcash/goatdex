@@ -226,7 +226,7 @@ tr.mid-header {
 
 tr.clickable-row:hover {
     cursor: pointer;
-    background: #002b44;
+    background: #504438;
 }
 
 .sell {
@@ -305,12 +305,12 @@ tr.clickable-row:hover {
 
 .nav-tabs.columns > li > a:hover {
     color: #FFF;
-    background: #002347;
+    background: #504438;
     border: 0;
 }
 
 .nav-tabs.columns > li.active > a:hover {
-    background: #004355;
+    background: #504438;
     color: #fff;
 }
 
@@ -748,12 +748,12 @@ fieldset[disabled] .form-control {
 #myTrades tbody tr:nth-child(even),
 #myAllTrades tbody tr:nth-child(even),
 #myFunds tbody tr:nth-child(even) {
-    background: #00254c;
+    background: #504438;
 }
 
 #volume tr:hover,
 #trades tr:hover {
-    background-color: #002b44;
+    background-color: #504438;
 }
 
 #trades {
