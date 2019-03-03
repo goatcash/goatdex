@@ -15,7 +15,7 @@ body {
     height: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    font-family: Titillium Web, sans-serif;
+    font-family: VT323, sans-serif;
     font-size: 13px;
     background: #001c39;
     color: #ced2d5;
@@ -596,7 +596,7 @@ fieldset[disabled] .form-control {
     text-align: left;
     color: #ffffff;
     background-color: #002f60;
-    font-family: Titillium Web, sans-serif;
+    font-family: VT323, sans-serif;
 }
 
 .form-control:focus {
