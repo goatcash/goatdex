@@ -1,11 +1,10 @@
 /*@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';*/
-/* titillium-web-regular - latin-ext_latin */
+
 @font-face {
-    font-family: Titillium Web;
+    font-family: 'VT323';
     font-style: normal;
     font-weight: 400;
-    src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'),
-    url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+    src: local('VT323'), local('VT323-Regular'), url(http://themes.googleusercontent.com/static/fonts/vt323/v4/CfvjE7QXPaQqLo02SkpIgA.ttf) format('truetype');
 }
 
 html,
