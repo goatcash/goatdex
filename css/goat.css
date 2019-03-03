@@ -140,7 +140,7 @@ a.navbar-brand {
 }
 
 .row .no-float:not(:last-child) {
-    border-right: 1px solid #847064;
+    border-right: 1px solid #504438;
 }
 
 .row-header {
@@ -479,7 +479,7 @@ pre code {
 
 #chartPrice {
     overflow: hidden;
-    background: #847064 !important;
+    background: #504438 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
