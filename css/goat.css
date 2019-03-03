@@ -18,7 +18,7 @@ body {
     overflow-y: hidden;
     font-family: "04b03";
     font-size: 13px;
-    background: #001c39;
+    background: #847064;
     color: #ced2d5;
 }
 
@@ -46,13 +46,13 @@ body::-webkit-scrollbar,
 
 body::-webkit-scrollbar-track,
 .scroll::-webkit-scrollbar-track {
-    background: #001c39;
+    background: #847064;
 }
 
 body::-webkit-scrollbar-thumb,
 .scroll::-webkit-scrollbar-thumb {
-    background-color: #002f60;
-    border: 1px solid #002f60;
+    background-color: #CCB8A4;
+    border: 1px solid #CCB8A4;
     transition: all 0.2s ease-out;
 }
 
@@ -69,13 +69,13 @@ body::-webkit-scrollbar,
 
 body::-webkit-scrollbar-track,
 .scroll-x::-webkit-scrollbar-track {
-    background: #001c39;
+    background: #847064;
 }
 
 body::-webkit-scrollbar-thumb,
 .scroll-x::-webkit-scrollbar-thumb {
-    background-color: #002f60;
-    border: 1px solid #002f60;
+    background-color: #CCB8A4;
+    border: 1px solid #CCB8A4;
     transition: all 0.2s ease-out;
 }
 
@@ -140,19 +140,20 @@ a.navbar-brand {
 }
 
 .row .no-float:not(:last-child) {
-    border-right: 1px solid #001225;
+    border-right: 1px solid #847064;
 }
 
 .row-header {
     width: 100%;
     padding: 8px;
     height: 38px;
-    background: #002f60;
+    background: #CCB8A4;
     font-size: 17px;
     font-weight: 500;
     text-transform: capitalize;
-    color: #fff;
+    color: #000;
     border-bottom: 1px solid #001225;
+    text-align: center;
 }
 
 .row-box {
@@ -229,7 +230,7 @@ tr.clickable-row:hover {
 }
 
 .sell {
-    color: #f50a0a;
+    color: #f56e0a;
 }
 
 .buy {
@@ -291,14 +292,14 @@ tr.clickable-row:hover {
     line-height: 17px;
     width: 100%;
     text-align: center;
-    background: #001c39;
+    background: #847064;
     color: #fff;
     border: 0;
 }
 
 .nav-tabs.columns > li.active > a {
     color: #fff;
-    background: #002f60;
+    background: #CCB8A4;
     border: 0;
 }
 
@@ -478,7 +479,7 @@ pre code {
 
 #chartPrice {
     overflow: hidden;
-    background: #001c39 !important;
+    background: #847064 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
@@ -495,7 +496,7 @@ pre code {
 
 #chartDepth {
     overflow: hidden;
-    background: #001c39 !important;
+    background: #847064 !important;
 }
 
 #chartDepth [fill="#cccccc"] {
@@ -588,7 +589,7 @@ fieldset[disabled] .form-control {
     width: 100%;
     height: 36px;
     padding: 8px 5px 8px 10px;
-    border: 1px solid #002f60;
+    border: 1px solid #CCB8A4;
     border-radius: 2px;
     outline: 0;
     box-shadow: none;
@@ -596,19 +597,19 @@ fieldset[disabled] .form-control {
     font-weight: normal;
     text-align: left;
     color: #ffffff;
-    background-color: #002f60;
+    background-color: #CCB8A4;
     font-family: "04b03";
 }
 
 .form-control:focus {
-    border-color: #002f60 !important;
+    border-color: #CCB8A4 !important;
 }
 
 .form-control[disabled],
 .form-control[readonly],
 fieldset[disabled] .form-control {
     color: #fff;
-    background-color: #002F60;
+    background-color: #CCB8A4;
 }
 
 .form-horizontal .control-label {
@@ -769,7 +770,7 @@ fieldset[disabled] .form-control {
 .modal-body,
 .modal-content {
     color: #fff;
-    background: #001c39;
+    background: #847064;
 }
 
 .alertify .ajs-body .ajs-content a,
@@ -787,7 +788,7 @@ fieldset[disabled] .form-control {
 .alertify .ajs-header,
 .modal-header {
     color: #FFF;
-    background: #001c39;
+    background: #847064;
 }
 
 .alertify .ajs-header .fa,
@@ -798,8 +799,8 @@ fieldset[disabled] .form-control {
 .alertify .ajs-footer,
 .modal-footer {
     color: #ced2d5;
-    background: #001c39;
-    border-top: #001c39;
+    background: #847064;
+    border-top: #847064;
 }
 
 .alertify .ajs-footer .ajs-buttons.ajs-auxiliary .ajs-button,
