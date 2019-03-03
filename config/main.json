@@ -41,6 +41,7 @@
     { "addr": "0x9f452e458b024e82d6e3ff50a07b8de74c988523", "name": "GOAT", "fullName": "Goat Cash", "decimals": 18 },
     { "addr": "0x33c52ee4bd563a26071619bc6f70146295febe8d", "name": "VOL", "fullName": "VolAir", "decimals": 18 },
     { "addr": "0x49c67ae22c334d0123dd6dbdc44f5302e130a88b", "name": "LUPX", "fullName": "Lupecoin", "decimals": 18 },
+    { "addr": "0x5a3c9a1725aa82690ee0959c89abe96fd1b527ee", "name": "PPI", "fullName": "Pied Piper Coin", "decimals": 18 },
     { "addr": "0x168296bb09e24a88805cb9c33356536b980d3fc5", "name": "RHOC", "fullName": "RHOC", "decimals": 8 },
     { "addr": "0xd4fa1460f537bb9085d22c7bccb5dd450ef28e3a", "name": "PPT", "fullName": "Populous Platform", "decimals": 8 },
     { "addr": "0x818fc6c2ec5986bc6e2cbf00939d90556ab12ce5", "name": "KIN", "fullName": "Kin", "decimals": 18 },
