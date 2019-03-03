@@ -226,7 +226,7 @@ tr.mid-header {
 
 tr.clickable-row:hover {
     cursor: pointer;
-    background: #002b44;
+    background: #504438;
 }
 
 .sell {
@@ -753,7 +753,7 @@ fieldset[disabled] .form-control {
 
 #volume tr:hover,
 #trades tr:hover {
-    background-color: #002b44;
+    background-color: #504438;
 }
 
 #trades {
