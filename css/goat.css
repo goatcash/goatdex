@@ -1,12 +1,12 @@
 /*@import 'https://fonts.googleapis.com/css?family=Open+Sans:400,700';*/
 /* titillium-web-regular - latin-ext_latin */
-@font-face {
+/* @font-face {
     font-family: Titillium Web;
     font-style: normal;
     font-weight: 400;
     src: local('Titillium Web Regular'), local('TitilliumWeb-Regular'),
-    url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */ url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
-}
+    url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff2') format('woff2'), url('../fonts/titillium-web-v6-latin-ext_latin-regular.woff') format('woff');
+} */
 
 html,
 body {
@@ -16,7 +16,7 @@ body {
     height: 100%;
     overflow-x: auto;
     overflow-y: hidden;
-    font-family: Titillium Web, sans-serif;
+    font-family: "04b03";
     font-size: 13px;
     background: #001c39;
     color: #ced2d5;
@@ -597,7 +597,7 @@ fieldset[disabled] .form-control {
     text-align: left;
     color: #ffffff;
     background-color: #002f60;
-    font-family: Titillium Web, sans-serif;
+    font-family: "04b03";
 }
 
 .form-control:focus {
