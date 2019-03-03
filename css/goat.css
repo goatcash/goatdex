@@ -140,7 +140,7 @@ a.navbar-brand {
 }
 
 .row .no-float:not(:last-child) {
-    border-right: 1px solid #001225;
+    border-right: 1px solid #847064;
 }
 
 .row-header {
@@ -151,7 +151,7 @@ a.navbar-brand {
     font-size: 17px;
     font-weight: 500;
     text-transform: capitalize;
-    color: #fff;
+    color: #000;
     border-bottom: 1px solid #001225;
 }
 
