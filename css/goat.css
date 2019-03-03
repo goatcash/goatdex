@@ -226,7 +226,7 @@ tr.mid-header {
 
 tr.clickable-row:hover {
     cursor: pointer;
-    background: #104438;
+    background: #493327;
 }
 
 .sell {
@@ -305,12 +305,12 @@ tr.clickable-row:hover {
 
 .nav-tabs.columns > li > a:hover {
     color: #FFF;
-    background: #104438;
+    background: #493327;
     border: 0;
 }
 
 .nav-tabs.columns > li.active > a:hover {
-    background: #104438;
+    background: #493327;
     color: #fff;
 }
 
