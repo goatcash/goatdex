@@ -153,6 +153,7 @@ a.navbar-brand {
     text-transform: capitalize;
     color: #000;
     border-bottom: 1px solid #001225;
+    text-align: center;
 }
 
 .row-box {
