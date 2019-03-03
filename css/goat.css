@@ -18,7 +18,7 @@ body {
     overflow-y: hidden;
     font-family: "04b03";
     font-size: 13px;
-    background: #847064;
+    background: #504438;
     color: #ced2d5;
 }
 
@@ -140,7 +140,7 @@ a.navbar-brand {
 }
 
 .row .no-float:not(:last-child) {
-    border-right: 1px solid #847064;
+    border-right: 1px solid #504438;
 }
 
 .row-header {
@@ -226,7 +226,7 @@ tr.mid-header {
 
 tr.clickable-row:hover {
     cursor: pointer;
-    background: #504438;
+    background: #493327;
 }
 
 .sell {
@@ -305,12 +305,12 @@ tr.clickable-row:hover {
 
 .nav-tabs.columns > li > a:hover {
     color: #FFF;
-    background: #504438;
+    background: #493327;
     border: 0;
 }
 
 .nav-tabs.columns > li.active > a:hover {
-    background: #504438;
+    background: #493327;
     color: #fff;
 }
 
@@ -479,7 +479,7 @@ pre code {
 
 #chartPrice {
     overflow: hidden;
-    background: #847064 !important;
+    background: #504438 !important;
 }
 
 #chartPrice [fill="#cccccc"] {
