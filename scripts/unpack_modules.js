@@ -99,7 +99,7 @@ let moduleNumberToNameMapOld = buildNumberToNameMap(moduleNameToNumberMap)
 function main () {
   let rootModule = ModuleInfo.loadAllModules(allModules)
   cleanOutDir(outDir)
-  rootModule.writeFile(outDir)
+  rootModule.writeFile(outDir)  
   //console.log('rootModule:', rootModule)
   console.log('potentialModules:')
   potentialModules.sort().forEach(s => console.log(`'${s}',`))
@@ -311,7 +311,7 @@ class ModuleInfo {
       return
     }
     let code = fixCode(this.code.toString(), this.number, this.referencedBy)
-    let fname = this.path
+    let fname = this.path.replace('c:\\', ''); // Stuupid windows
     if (!fname.endsWith('.js')) {
       fname = fname + '.js'
     }
