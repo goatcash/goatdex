@@ -94,6 +94,15 @@ body::-webkit-scrollbar-thumb:hover,
     border-radius: 0;
 }
 
+.nav {
+    text-transform: uppercase;
+}
+
+#accounts,
+.dropdown-menu {
+    text-transform: none;
+}
+
 a.navbar-brand {
     height: 50px;
     padding: 0;
@@ -150,7 +159,7 @@ a.navbar-brand {
     background: #CCB8A4;
     font-size: 17px;
     font-weight: 500;
-    text-transform: capitalize;
+    text-transform: uppercase;
     color: #000;
     border-bottom: 1px solid #001225;
     text-align: center;
@@ -255,7 +264,7 @@ tr.clickable-row:hover {
 
 .row-box.nav-header {
     height: 35px;
-    border-bottom: 1px solid #15232c;
+    border-bottom: 1px solid #15232c;    
 }
 
 .nav-tabs > li > a {
