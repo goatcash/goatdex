@@ -169,7 +169,8 @@ var _createClass = (function() {
                         price = _this.refs.buyPrice.value;
                     if (
                         (_this.setState({
-                            buyTotal: (amount * price).toFixed(3) || '',
+                            buyTotal: (amount * price).toFixed(5) || '',
+                            buyToolTip: (amount * price) || '',
                         }),
                         _this.state.orders &&
                             _this.state.orders.sells &&
@@ -285,7 +286,8 @@ var _createClass = (function() {
                                               value: this.state.buyTotal,
                                               placeholder: 'total',
                                               readOnly: !0,
-                                          })
+                                              title: this.state.buyToolTip, // TODO: replace this with the ttip
+                                          }),
                                       )
                                   ),
                                   React.createElement(
@@ -376,4 +378,4 @@ var _createClass = (function() {
             Buy
         );
     })();
-            exports.default = Buy;
+            exports.default = Buy;

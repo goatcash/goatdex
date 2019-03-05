@@ -1682,25 +1682,25 @@
                                                 self.socket.once(
                                                     'messageResult',
                                                     function(messageResult) {
-                                                        console.log(
-                                                            messageResult
-                                                        ),
-                                                            ga('send', {
-                                                                hitType:
-                                                                    'event',
-                                                                eventCategory:
-                                                                    'Action',
-                                                                eventAction:
-                                                                    'Order',
-                                                                eventLabel:
-                                                                    self
-                                                                        .selectedToken
-                                                                        .name +
-                                                                    '/' +
-                                                                    self
-                                                                        .selectedBase
-                                                                        .name,
-                                                            });
+                                                        console.log(messageResult);
+                                                        if (messageResult.indexOf('Did not place order') > -1)
+                                                            self.dialogError(messageResult);
+                                                        ga('send', {
+                                                            hitType:
+                                                                'event',
+                                                            eventCategory:
+                                                                'Action',
+                                                            eventAction:
+                                                                'Order',
+                                                            eventLabel:
+                                                                self
+                                                                    .selectedToken
+                                                                    .name +
+                                                                '/' +
+                                                                self
+                                                                    .selectedBase
+                                                                    .name,
+                                                        });
                                                     }
                                                 ));
                                         }
