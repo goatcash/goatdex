@@ -21,18 +21,11 @@
   "gasTrade": 250000,
   "gasOrder": 250000,
   "minOrderSize": 0.001,
-  "socketServer": [
-    "https://socket01.etherdelta.com",
-    "https://socket02.etherdelta.com",
-    "https://socket03.etherdelta.com",
-    "https://socket04.etherdelta.com",
-    "https://socket05.etherdelta.com",
-    "https://socket06.etherdelta.com"
-  ],
+  "socketServer": "https://dex-api-dev.goat.cash",
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
   "ordersCacheCookie": "EtherDelta_ordersCache",
-  "etherscanAPIKey": "GCGR1C9I17TYIRNYUDDEIJH1K5BRPH4UDE",
+  "etherscanAPIKey": "NZ72QBQ7FIFHJQIT1G6G92G3IVU36JSW9H",
   "ledgerPath": "m/44'/60'/0'/0",
   "bases": [
     { "addr": "0x0000000000000000000000000000000000000000", "name": "ETH", "fullName": "Ethereum", "decimals": 18 }
