@@ -33,6 +33,7 @@
         BigNumber = require('bignumber.js'),
         xss = require('xss'),
         sanitizer = require('sanitizer');
+
     
     module.exports = function(config) {
         var utility = {};

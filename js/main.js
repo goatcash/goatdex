@@ -3003,12 +3003,58 @@
                         callback();
                 }),
                 (self.loadWeb3 = function(callback) {
-                    if ('undefined' != typeof web3 && void 0 !== Web3)
-                        (self.web3 = new Web3(web3.currentProvider)),
-                            console.log(
-                                'Connecting to MetaMask',
-                                web3.currentProvider
+                           
+
+                    // Modern dapp browsers EIP-1102 approval                    
+                    if (window.ethereum) {
+                        self.web3 = new Web3(window.ethereum);
+                        console.log('EIP-1102 compilant web3 detected.'); 
+            
+                        // Fallback msg if user does not see the login prompt
+                        self.mmloginTimeout = setTimeout(function() {
+                            (self.dialogError(
+                                'You are using MetaMask but you are not logged in. Please log in to MetaMask and refresh.'
                             ),
+                            ga('send', {
+                                hitType: 'event',
+                                eventCategory: 'Error',
+                                eventAction:
+                                    'Ethereum - MetaMask not logged in',
+                            }));    
+                        }, 10000)
+
+                        // Request account access if needed
+                        window.ethereum.enable()
+                        .then(function(result) {
+                            // User accepted 
+                            console.info('User accepted web3 prompt.');
+
+                            clearTimeout(self.mmloginTimeout);
+                            
+                            self.store.dispatch({
+                                type: 'UPDATE_SETTINGS',
+                                value: {
+                                    connection: {
+                                        connection: 'RPC',
+                                        provider: self.config.ethProvider,
+                                        testnet: self.config.ethTestnet,
+                                    },
+                                },
+                            }),
+                            
+                            callback();
+                        }, function(error) {
+                            clearTimeout(self.mmloginTimeout);
+
+                            // User denied account access...
+                            console.error(error.message);                            
+                            self.dialogError(error.message);                           
+                        })
+                    }   
+
+                    else if ('undefined' != typeof web3 && void 0 !== Web3) {
+                        (self.web3 = new Web3(web3.currentProvider)),
+                            console.log('Connecting to MetaMask', web3.currentProvider),
                             self.store.dispatch({
                                 type: 'UPDATE_SETTINGS',
                                 value: {
@@ -3021,6 +3067,7 @@
                             }),
                             $('#pkDiv').hide(),
                             callback();
+                    }
                     else if (
                         void 0 !== Web3 &&
                         'https:' !== window.location.protocol
