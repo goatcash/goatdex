@@ -33,6 +33,21 @@
         BigNumber = require('bignumber.js'),
         xss = require('xss'),
         sanitizer = require('sanitizer');
+    
+        // Added JS prototypes for BigNumber backwards compat.
+        // TODO: Check which version of BN we really should have here
+        BigNumber.prototype.ceil = function () {
+            return this.integerValue(BigNumber.ROUND_CEIL);
+        };        
+        BigNumber.prototype.floor = function () {
+            return this.integerValue(BigNumber.ROUND_FLOOR);
+        };        
+        BigNumber.prototype.round = function () {
+            return this.integerValue(BigNumber.ROUND_HALF_CEIL);
+        };        
+        BigNumber.prototype.trunc = function () {
+            return this.integerValue(BigNumber.ROUND_DOWN);
+        };
     module.exports = function(config) {
         var utility = {};
         return (
@@ -1349,4 +1364,4 @@
             utility
         );
     };
-            }.call(this, require('buffer').Buffer));
+            }.call(this, require('buffer').Buffer));

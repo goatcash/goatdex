@@ -20,7 +20,7 @@
   "gasWithdraw": 250000,
   "gasTrade": 250000,
   "gasOrder": 250000,
-  "minOrderSize": 0.001,
+  "minOrderSize": 0.01,
   "socketServer": "https://dex-api-dev.goat.cash",
   "userCookie": "EtherDelta",
   "eventsCacheCookie": "EtherDelta_eventsCache",
