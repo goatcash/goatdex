@@ -206,12 +206,12 @@ var _slicedToArray = (function() {
                                         ),
                                 },
                                 gridlines: { color: '#fff' },
-                                textStyle: { color: '#fff' },
+                                textStyle: { color: '#fff', fontName: '04b03', fontSize: 13 },
                             },
                             hAxis: {
                                 title: '',
                                 baselineColor: '#fff',
-                                textStyle: { color: '#fff' },
+                                textStyle: { color: '#fff', fontName: '04b03', fontSize: 13 },
                                 gridlines: {
                                     color: 'none',
                                     count: -1,
@@ -253,4 +253,4 @@ var _slicedToArray = (function() {
             ChartPrice
         );
     })();
-            exports.default = ChartPrice;
+            exports.default = ChartPrice;
